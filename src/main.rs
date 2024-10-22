@@ -37,8 +37,8 @@ async fn main() -> Result<()> {
     }
 
     let contracts = Arc::new(Mutex::new(contracts));
-    let start_block = 3992892 - 2;
-    let end_block = 3992892 + 2;
+    let start_block = 2515813;
+    let end_block = 5925327;
 
     // AccountCreation event signature
     let account_creation_signature = H256::from_str("0x8967dcaa00d8fcb9bb2b5beff4aaf8c020063512cf08fbe11fec37a1e3a150f2")?;
